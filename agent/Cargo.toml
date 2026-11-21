@@ -1,0 +1,13 @@
+[package]
+name = "noita-coop-agent"
+description = "Client side of the run server link: handshake, reconnect, resend of unacknowledged commands"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+noita-coop-protocol = { version = "0.1.0", path = "../protocol" }
+thiserror = "2.0.21"
